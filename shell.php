@@ -6,7 +6,7 @@
 </form>
 <pre>
 <?php
-   system('cat index.php');
+   print_r(scandir("."));
 ?>
 </pre>
 </body>
